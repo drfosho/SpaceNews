@@ -1,7 +1,7 @@
 
 # Space News
 
-Get the latest Space News delivered straight to your app! View the latest news and articles of the Galaxy all within the app.
+SpaceNews is a SwiftUI-based iOS app that showcases the latest from the Galaxy. The app makes an API request and decodes via JSON, then displays articles in a list view. Selecting an article opens it using WebKit, which allows users to view the article without having to open Safari.
 
 ## API Reference
 
