@@ -32,4 +32,4 @@ Get the latest Space News delivered straight to your app! View the latest news a
 
 ## Preview
 
-https://media.giphy.com/media/xmbcPXTuy0q74w3wIv/giphy.gif
+<iframe src="https://giphy.com/embed/xmbcPXTuy0q74w3wIv" width="337" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/xmbcPXTuy0q74w3wIv">via GIPHY</a></p>
