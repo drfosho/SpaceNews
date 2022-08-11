@@ -32,5 +32,5 @@ Get the latest Space News delivered straight to your app! View the latest news a
 
 ## Preview
 
-<p>ima align=“center” src=“https://github.com/drfosho/SpaceNews/blob/main/SpaceNewsGif.gif” width=“500” height-“320” /></p>
+![SpaceNewsGif](https://user-images.githubusercontent.com/79447152/184193374-9f877b6b-75fd-46e0-b85a-c966aa87a9ed.gif)
 
