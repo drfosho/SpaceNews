@@ -20,6 +20,12 @@ struct GalaxyData: Codable, Identifiable {
     
 }
 
+struct SavedArticle: Identifiable, Codable {
+    let id = UUID()
+    let title: String
+    let url: String
+}
+
 @MainActor class GalaxyApi: ObservableObject {
     @Published var news: [GalaxyData] = []
     

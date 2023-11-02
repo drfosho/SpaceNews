@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C6309CB2AF2C8C1009A956E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6309CA2AF2C8C1009A956E /* ProfileView.swift */; };
+		7C6309CD2AF3E29D009A956E /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6309CC2AF3E29D009A956E /* UserDefaultsManager.swift */; };
 		7CE8A2C028A3165900D21FC1 /* SpaceNewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8A2BF28A3165900D21FC1 /* SpaceNewsApp.swift */; };
 		7CE8A2C228A3165900D21FC1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CE8A2C128A3165900D21FC1 /* ContentView.swift */; };
 		7CE8A2C428A3165A00D21FC1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CE8A2C328A3165A00D21FC1 /* Assets.xcassets */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C6309CA2AF2C8C1009A956E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		7C6309CC2AF3E29D009A956E /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		7CE8A2BC28A3165900D21FC1 /* SpaceNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CE8A2BF28A3165900D21FC1 /* SpaceNewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpaceNewsApp.swift; sourceTree = "<group>"; };
 		7CE8A2C128A3165900D21FC1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,8 @@
 				7CE8A2D328A316B700D21FC1 /* SpaceArticle.swift */,
 				7CE8A2D828A46E5F00D21FC1 /* DetailView.swift */,
 				7CE8A2DA28A46E6700D21FC1 /* WebView.swift */,
+				7C6309CA2AF2C8C1009A956E /* ProfileView.swift */,
+				7C6309CC2AF3E29D009A956E /* UserDefaultsManager.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -176,10 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C6309CB2AF2C8C1009A956E /* ProfileView.swift in Sources */,
 				7CE8A2C228A3165900D21FC1 /* ContentView.swift in Sources */,
 				7CE8A2D928A46E5F00D21FC1 /* DetailView.swift in Sources */,
 				7CE8A2D228A316AD00D21FC1 /* SpaceView.swift in Sources */,
 				7CE8A2C028A3165900D21FC1 /* SpaceNewsApp.swift in Sources */,
+				7C6309CD2AF3E29D009A956E /* UserDefaultsManager.swift in Sources */,
 				7CE8A2D428A316B700D21FC1 /* SpaceArticle.swift in Sources */,
 				7CE8A2CF28A3168100D21FC1 /* ApiData.swift in Sources */,
 				7CE8A2DB28A46E6700D21FC1 /* WebView.swift in Sources */,

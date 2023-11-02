@@ -13,6 +13,7 @@ struct SpaceArticle: View {
     let imageUrl: String
     let siteName: String
     let summary: String
+    var onSave: (() -> Void)?
     
     
     var body: some View {
@@ -47,11 +48,30 @@ struct SpaceArticle: View {
                 .lineLimit(6)
                 .font(.body)
                 .padding(8)
+            Button(action: {
+                if let saveAction = onSave {
+                    saveAction()
+                }
+            }) {
+                Text("Save")
+                    .font(.headline)
+                    .foregroundStyle(.white)
+                    .padding(.horizontal, 20)
+                    .padding(.vertical, 20)
+                    .background(Color.blue)
+                    .cornerRadius(10)
+                    .shadow(radius: 5)
+            }
+            .padding(.top, 5)
+            
     }
 }
 }
 struct SpaceArticle_Previews: PreviewProvider {
     static var previews: some View {
-        SpaceArticle(title: "New Landing!", imageUrl: "...", siteName: "Space News", summary: "A New rocket has landed!")
+        SpaceArticle(title: "New Landing!", imageUrl: "...", siteName: "Space News", summary: "A New rocket has landed!") {
+            //Dummy onSave closure for preview
+            print("Article Saved")
+        }
     }
 }
